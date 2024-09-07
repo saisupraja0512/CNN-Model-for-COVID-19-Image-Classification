@@ -22,3 +22,12 @@ Two fully connected layers at the end, with softmax activation for classificatio
 
 ### Model Saving and Loading:
 After training, the model is saved as a JSON file (model.json) along with the weights (model.weights.h5) for future classification tasks.A separate classification function loads this saved model and predicts the label of new images.
+
+# Prerequisites
+>Python 3.x
+
+>TensorFlow and Keras
+
+>NumPy
+
+>Matplotlib (optional, for visualizations)
